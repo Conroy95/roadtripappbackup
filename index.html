@@ -11,8 +11,10 @@
 	<link rel="manifest" href="favicon/site.webmanifest" />
     <title>22-daagse Roadtrip</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+	
     <link rel="manifest" href="manifest.json">
-	<script src="script.js"></script>
+	
 </head>
 <body>
     <div class="navbar">
@@ -55,7 +57,7 @@
 
 <script>
     if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("service-worker.js?v=1")
+        navigator.serviceWorker.register("/service-worker.js?v=1")
             .then(() => console.log("Service Worker geregistreerd!"))
             .catch(err => console.log("Service Worker fout:", err));
     }
