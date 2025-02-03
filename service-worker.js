@@ -47,3 +47,5 @@ self.addEventListener('fetch', event => {
       })
   );
 });
+
+navigator.serviceWorker.register('service-worker.js?v=1');
