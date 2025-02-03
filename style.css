@@ -1,0 +1,86 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #f4e1d2;
+    color: #5c3d2e;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #b58c5d;
+    padding: 10px;
+}
+
+.menu-btn {
+    background-color: #5c3d2e;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    background-color: #b58c5d;
+    padding: 10px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #7d5d3b;
+}
+
+.menu.open {
+    display: block;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #3a2e1e;
+}
+
+.active {
+  background-color: #5c3d2e;
+  color: white;
+}
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.stops p{
+    padding-top:0px;
+    padding-bottom:30px;
+}
+
+.hotel-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        text-align: center;
+    }
+    .menu a {
+        text-align: center;
+    }
+}
