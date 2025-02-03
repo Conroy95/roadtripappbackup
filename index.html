@@ -11,10 +11,7 @@
 	<link rel="manifest" href="favicon/site.webmanifest" />
     <title>22-daagse Roadtrip</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-	
-    <link rel="manifest" href="manifest.json">
-	
+    <script src="script.js"></script>	
 </head>
 <body>
     <div class="navbar">
@@ -54,14 +51,5 @@
     <footer>
         <p style="text-align: center"> Copyright &copy; 2024-<script>document.write(new Date().getFullYear())</script> Roadtrip App - All Rights Reserved</p>    
     </footer>
-
-<script>
-    if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/service-worker.js?v=1")
-            .then(() => console.log("Service Worker geregistreerd!"))
-            .catch(err => console.log("Service Worker fout:", err));
-    }
-</script>
-	
 </body>
 </html>
