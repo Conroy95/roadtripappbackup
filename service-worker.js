@@ -2,9 +2,9 @@ const CACHE_NAME = 'roadtrip-app-cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',
-  '/styles.css',
-  '/days/dag1.html',
-  '/days/dag2.html',
+  './styles.css',
+  './days/dag1.html',
+  './days/dag2.html',
   'days/dag3.html',
   'days/dag4.html',
   'days/dag5.html',
@@ -26,8 +26,8 @@ const urlsToCache = [
   'days/dag21.html',
   'days/dag22.html',
   'app.js',
-  '/favicon/favicon-96x96.ico',
-  '/favicon/favicon.ico'
+  './favicon/favicon-96x96.ico',
+  './favicon/favicon.ico'
 ];
 
 self.addEventListener('install', event => {
