@@ -26,8 +26,8 @@ const urlsToCache = [
   'days/dag21.html',
   'days/dag22.html',
   'app.js',
-  'icons/icon-192x192.png',
-  'icons/icon-512x512.png'
+  '/favicon/favicon-96x96.ico',
+  '/favicon/favicon.ico'
 ];
 
 self.addEventListener('install', event => {
