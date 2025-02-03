@@ -52,5 +52,20 @@
     <footer>
         <p style="text-align: center"> Copyright &copy; 2024-<script>document.write(new Date().getFullYear())</script> Roadtrip App - All Rights Reserved</p>    
     </footer>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(registration => {
+          console.log('Service Worker geregistreerd met scope:', registration.scope);
+        })
+        .catch(error => {
+          console.log('Service Worker registratie mislukt:', error);
+        });
+    });
+  }
+</script>
+	
 </body>
 </html>
