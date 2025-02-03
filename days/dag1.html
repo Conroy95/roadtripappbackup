@@ -12,7 +12,6 @@
     <title>Dag 1: Los Angeles</title>
     <link rel="stylesheet" href="../style.css">
 	<script src="../script.js"></script>
-	<link rel="manifest" href="../manifest.json">
 </head>
 <body>
     <div class="navbar">
@@ -77,15 +76,6 @@
     <br>
     <footer>
         <p style="text-align: center"> Copyright &copy; 2024-<script>document.write(new Date().getFullYear())</script> Roadtrip App - All Rights Reserved</p>    
-    </footer>
-
-<script>
-    if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("../service-worker.js?v=1")
-            .then(() => console.log("Service Worker geregistreerd!"))
-            .catch(err => console.log("Service Worker fout:", err));
-    }
-</script>
-	
+    </footer>	
 </body>
 </html>
