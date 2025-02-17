@@ -76,6 +76,14 @@ h1, h2 {
   border-radius: 10px;
 }
 
+.airport::before {
+  content: '✈️';
+}
+
+.location::before {
+  content: '📍';
+}
+
 @media (max-width: 768px) {
     .navbar {
         text-align: center;
