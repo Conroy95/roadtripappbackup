@@ -80,8 +80,9 @@ h1, h2 {
   content: '✈️';
 }
 
-.location::before {
+.location::after {
   content: '📍';
+  float: right;
 }
 
 @media (max-width: 768px) {
