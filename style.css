@@ -85,7 +85,7 @@ h1, h2 {
 }
 
 .losangeles::after {
-    content: url('../images/hotel01.png');
+    content: url("../images/hotel01.png");
 }
 
 @media (max-width: 768px) {
