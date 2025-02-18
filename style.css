@@ -84,6 +84,10 @@ h1, h2 {
   content: '📍';
 }
 
+.losangeles::after {
+    content: url('../images/hotel01.png');
+}
+
 @media (max-width: 768px) {
     .navbar {
         text-align: center;
