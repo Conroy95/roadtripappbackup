@@ -49,6 +49,11 @@ h1, h2 {
   background-color: #5c3d2e;
   color: white;
 }
+
+.active::before {
+  content: '🌵';
+}
+
 .container{
     padding-left: 10px;
     padding-right: 10px;
