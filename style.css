@@ -51,7 +51,7 @@ h1, h2 {
 }
 
 .active::before {
-  content: '🔴 - ';
+  content: ' ';
 }
 
 .container{
