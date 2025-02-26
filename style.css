@@ -66,6 +66,13 @@ h1, h2 {
     border-radius: 10px;
 }
 
+.airport-img {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
 .banner {
   display: block;
   margin-left: auto;
